@@ -1,5 +1,5 @@
 # aws-lambda-py-pandas-template
-how to use pandas or numpy or other python libraries in aws lambda ,
+How to use pandas or numpy or other python libraries in aws lambda ,
 You add your lib into requirements.txt
 ```js
 numpy==1.15.4
