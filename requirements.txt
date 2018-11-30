@@ -1,0 +1,6 @@
+jsondiff==1.1.1
+jsonpath-rw==1.4.0
+jsonpickle==1.0
+jsonschema==2.6.0
+numpy==1.15.4
+pandas==0.23.4

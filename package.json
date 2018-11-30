@@ -1,0 +1,12 @@
+{
+  "name": "python-lib",
+  "author": "youssef maghzaz <youssefmaghzaz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "sam build --use-container",
+    "build:dev": "sam build --use-container",
+    "start": "sam local invoke --event d.json",
+    "deploy:prod": " ",
+    "local": "sam package --s3-bucket firstsimpleserverless-de-serverlessdeploymentbuck-1upbb4ly987yw"
+  }
+}

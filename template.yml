@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: "AWS::Serverless-2016-10-31"
+Resources:
+  MyFunction:
+    Type: "AWS::Serverless::Function"
+    Properties:
+      Handler: handler.hello
+      Runtime: python3.6
+      CodeUri: "s3://firstsimpleserverless-de-serverlessdeploymentbuck-1upbb4ly987yw/function.zip"
